@@ -12,5 +12,7 @@ export const apiGetProductList = () => api.post("/api/v1/product/get-list");
 export const apiGetProductInit = () => api.get("/api/v1/product/get-init");
 export const apiSaveProduct = (payload) =>
   api.post("/api/v1/product/save", payload);
+export const apiSaveMasterData = (payload) =>
+  api.post("/api/v1/master/save", payload);
 export const apiGetListMasterData = (payload) =>
   api.post("/api/v1/master/get-list", payload);
